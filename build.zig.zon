@@ -1,0 +1,16 @@
+.{
+    .name = "clickhouse-cpp",
+    .version = "2.5.1",
+
+    .dependencies = .{
+        .clickhouse = .{
+            .url = "https://github.com/ClickHouse/clickhouse-cpp/archive/refs/tags/v2.5.1.tar.gz",
+            .hash = "1220168276f8f657b4c598ade185a106ca17826ae4c2247a6d94c9d56463b57dcc5b",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
